@@ -1,25 +1,5 @@
 ﻿using TaskManagerPro;
 
-var tasks = new List<ITask>
-{
-    new SimpleTask("Buy groceries"),
-    new SimpleTask("Email professor"),
-    new TimedTask("Study algorithms", 45),
-    new RecurringTask("Take out trash", "Weekly")
+demo demo1 = new demo(20);
 
-};
-
-
-foreach (var task in tasks)
-{
-    task.Display();
-}
-
-tasks[0].Complete();
-
-Console.WriteLine("\nAfter completeing first task:\n");
-
-foreach (var task in tasks)
-{
-    task.Display();
-}
+Console.WriteLine(demo1.Calc());
