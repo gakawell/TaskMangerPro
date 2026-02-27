@@ -1,5 +1,12 @@
 ﻿using TaskManagerPro;
+using TaskManagerPro.Core.Models;
+using TaskManagerPro.Core.Interfaces;
 
-demo demo1 = new demo(20);
+var tasks = new List<ITask>
+{
+    new SimpleTask("Buy groceries"),
+    new SimpleTask("Email professor")
+};
 
-Console.WriteLine(demo1.Calc());
+
+

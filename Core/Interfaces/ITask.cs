@@ -1,4 +1,5 @@
-namespace TaskManagerPro;
+namespace TaskManagerPro.Core.Interfaces;
+
 
 public interface ITask
 {

@@ -1,4 +1,5 @@
-namespace TaskManagerPro;
+namespace TaskManagerPro.Core.Models;
+using TaskManagerPro.Core.Abstract;
 
 public class SimpleTask : BaseTask
 {

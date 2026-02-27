@@ -1,6 +1,6 @@
-using System.Data;
-
-namespace TaskManagerPro;
+namespace TaskManagerPro.Core.Models;
+using TaskManagerPro.Core.Abstract;
+using TaskManagerPro.Core.Interfaces;
 
 public class RecurringTask : BaseTask
 {

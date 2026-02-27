@@ -1,4 +1,6 @@
-namespace TaskManagerPro;
+namespace TaskManagerPro.Core.Models;
+using TaskManagerPro.Core.Abstract;
+using TaskManagerPro.Core.Interfaces;
 
 public class TimedTask : BaseTask
 {
